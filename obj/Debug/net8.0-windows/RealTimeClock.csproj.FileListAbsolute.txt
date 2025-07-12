@@ -1,0 +1,16 @@
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\bin\Debug\net8.0-windows\RealTimeClock.exe
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\bin\Debug\net8.0-windows\RealTimeClock.deps.json
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\bin\Debug\net8.0-windows\RealTimeClock.runtimeconfig.json
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\bin\Debug\net8.0-windows\RealTimeClock.dll
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\bin\Debug\net8.0-windows\RealTimeClock.pdb
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.Form1.resources
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.csproj.GenerateResource.cache
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.GeneratedMSBuildEditorConfig.editorconfig
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.AssemblyInfoInputs.cache
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.AssemblyInfo.cs
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.csproj.CoreCompileInputs.cache
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.dll
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\refint\RealTimeClock.dll
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.pdb
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\RealTimeClock.genruntimeconfig.cache
+D:\vishwa software\RealTimeClock\RealTimeClock\RealTimeClock\obj\Debug\net8.0-windows\ref\RealTimeClock.dll
