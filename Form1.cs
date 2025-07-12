@@ -10,6 +10,7 @@ namespace RealTimeClock
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblClock.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            lblDate.Text = DateTime.Now.ToString("dddd, dd MMMM yyyy");
         }
     }
 }

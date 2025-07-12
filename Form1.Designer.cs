@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             timer1 = new System.Windows.Forms.Timer(components);
             lblClock = new Label();
+            lblDate = new Label();
             SuspendLayout();
             // 
             // timer1
@@ -50,11 +51,21 @@
             lblClock.TabIndex = 0;
             lblClock.Text = "Clock";
             // 
+            // lblDate
+            // 
+            lblDate.AutoSize = true;
+            lblDate.Location = new Point(12, 54);
+            lblDate.Name = "lblDate";
+            lblDate.Size = new Size(31, 15);
+            lblDate.TabIndex = 1;
+            lblDate.Text = "Date";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(284, 161);
+            Controls.Add(lblDate);
             Controls.Add(lblClock);
             MinimumSize = new Size(300, 200);
             Name = "Form1";
@@ -68,5 +79,6 @@
 
         private System.Windows.Forms.Timer timer1;
         private Label lblClock;
+        private Label lblDate;
     }
 }
