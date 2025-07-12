@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RealTimeClock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40e5dcd7d3889bc64883d0f514df9069d1c26464")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e1d7ad6a90d8c310f392292883e05851151333")]
 [assembly: System.Reflection.AssemblyProductAttribute("RealTimeClock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RealTimeClock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

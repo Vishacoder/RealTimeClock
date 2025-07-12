@@ -35,6 +35,7 @@
             btnToggleTheme = new Button();
             alarmTimePicker = new DateTimePicker();
             btnSetAlarm = new Button();
+            lblAlarmStatus = new Label();
             SuspendLayout();
             // 
             // timer1
@@ -91,12 +92,23 @@
             btnSetAlarm.TabIndex = 4;
             btnSetAlarm.Text = "Set Alarm";
             btnSetAlarm.UseVisualStyleBackColor = true;
+            btnSetAlarm.Click += btnSetAlarm_Click;
+            // 
+            // lblAlarmStatus
+            // 
+            lblAlarmStatus.AutoSize = true;
+            lblAlarmStatus.Location = new Point(193, 76);
+            lblAlarmStatus.Name = "lblAlarmStatus";
+            lblAlarmStatus.Size = new Size(78, 15);
+            lblAlarmStatus.TabIndex = 5;
+            lblAlarmStatus.Text = "Alarm not set";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(284, 161);
+            Controls.Add(lblAlarmStatus);
             Controls.Add(btnSetAlarm);
             Controls.Add(alarmTimePicker);
             Controls.Add(btnToggleTheme);
@@ -119,5 +131,6 @@
         private Button btnToggleTheme;
         private DateTimePicker alarmTimePicker;
         private Button btnSetAlarm;
+        private Label lblAlarmStatus;
     }
 }
