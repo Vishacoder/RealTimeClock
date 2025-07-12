@@ -78,7 +78,7 @@
             // alarmTimePicker
             // 
             alarmTimePicker.Format = DateTimePickerFormat.Time;
-            alarmTimePicker.Location = new Point(193, 94);
+            alarmTimePicker.Location = new Point(11, 118);
             alarmTimePicker.Name = "alarmTimePicker";
             alarmTimePicker.ShowUpDown = true;
             alarmTimePicker.Size = new Size(75, 23);
@@ -86,7 +86,7 @@
             // 
             // btnSetAlarm
             // 
-            btnSetAlarm.Location = new Point(197, 123);
+            btnSetAlarm.Location = new Point(11, 147);
             btnSetAlarm.Name = "btnSetAlarm";
             btnSetAlarm.Size = new Size(75, 23);
             btnSetAlarm.TabIndex = 4;
@@ -97,7 +97,7 @@
             // lblAlarmStatus
             // 
             lblAlarmStatus.AutoSize = true;
-            lblAlarmStatus.Location = new Point(193, 76);
+            lblAlarmStatus.Location = new Point(11, 100);
             lblAlarmStatus.Name = "lblAlarmStatus";
             lblAlarmStatus.Size = new Size(78, 15);
             lblAlarmStatus.TabIndex = 5;
@@ -107,7 +107,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(284, 161);
+            ClientSize = new Size(284, 181);
             Controls.Add(lblAlarmStatus);
             Controls.Add(btnSetAlarm);
             Controls.Add(alarmTimePicker);

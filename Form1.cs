@@ -21,17 +21,12 @@ namespace RealTimeClock
                     DateTime.Now.Minute == alarmTime.Minute &&
                     DateTime.Now.Second == alarmTime.Second)
                 {
-                    isAlarmSet = false; // prevent repeating
-                    lblAlarmStatus.Text = "Alarm triggered!";
-                    lblAlarmStatus.ForeColor = Color.Red;
-
-                    // Show a popup
-                    MessageBox.Show("? Alarm Time Reached!", "Alarm", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    // Optional: Play a beep sound
-                    System.Media.SystemSounds.Beep.Play();
+                    isAlarmSet = false; // Stop checking
+                    timer1.Stop();      // Pause timer while alarm is ringing
+                    ShowAlarmWindow();  // Show custom alarm popup
                 }
             }
+
 
         }
 
@@ -68,6 +63,26 @@ namespace RealTimeClock
             isAlarmSet = true;
             lblAlarmStatus.Text = "Alarm set for: " + alarmTime.ToString("hh.mm tt");
             lblAlarmStatus.ForeColor = Color.Green;
+            btnSetAlarm.Enabled = false;
         }
+
+        private void ShowAlarmWindow()
+        {
+            using (AlarmPopup alarmPopup = new AlarmPopup())
+            {
+                var result = alarmPopup.ShowDialog();
+
+                if (result == DialogResult.OK)
+                {
+                    lblAlarmStatus.Text = "Alarm off";
+                    lblAlarmStatus.ForeColor = Color.Gray;
+
+                    // Re-enable alarm setting
+                    btnSetAlarm.Enabled = true;
+                    timer1.Start(); // Resume clock
+                }
+            }
+        }
+
     }
 }
